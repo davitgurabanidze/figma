@@ -23,7 +23,11 @@ body{
 }
 
 div {
- border-radius: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+border-radius: 20px;
 display: inline-block;
 width: 344.83px;
 height: 564px;
