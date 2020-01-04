@@ -23,29 +23,29 @@ body{
 }
 
 div {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: center;
-border-radius: 20px;
-display: inline-block;
-width: 344.83px;
-height: 564px;
-left: 166px;
-top: 147px;
-margin: 29px 27px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+       border-radius: 20px;
+       display: inline-block;
+       width: 344.83px;
+      height: 564px;
+      left: 166px;
+      top: 147px;
+      margin: 29px 27px;
+      padding: 52px 47px;
 }
 
 h1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-    width: 60%;
-    margin-left: 35px;
-    font-family: Roboto-bold;
-
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+       align-items: center;
+      color: white;
+      width: 60%;
+      margin-left: 35px;
+      font-family: Roboto-bold;
 }
 
 p {
@@ -59,10 +59,26 @@ p {
 ul {
 	color: white;
 	list-style-type: none ;
-	margin-left: 45px;
+	 margin-left: 33px;
+	padding: 0;
 }
+li{
+
+	position: relative;
+	margin: 10px 0 9px 0;
+}
+li::before{
+	content: url(Vector.svg);
+	display: inline-block;
+	width: 16px;
+	height: 11px;
+	position: absolute;
+	left: -33px;
+}
+       
+
 ul li {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 ul {
 	margin-bottom: 50px;
@@ -81,6 +97,7 @@ ul {
 .red {background: #DD1F32;
 	align-self: flex-end;
 }
+
 a {
 	font-family: Roboto-Bold;
 	font-weight: 300;
@@ -94,7 +111,7 @@ a {
 	border: 1px solid #45D3C2;
 	padding: 14px 82px;
 	border-radius: 20px;
-	margin-left: 60px;
+	margin-left: 10px;
 	
 }
 
@@ -111,7 +128,7 @@ a {
 	border: 1px solid #002BFF;
 	padding: 14px 82px;
 	border-radius: 20px;
-	margin-left: 60px;
+	margin-left: 10px;
 	
 }
 
@@ -128,7 +145,7 @@ a {
 	border: 1px solid #FDD91A;
 	padding: 14px 82px;
 	border-radius: 20px;
-	margin-left: 60px;
+	margin-left: 10px;
 	
 }
 
